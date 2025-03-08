@@ -15,7 +15,7 @@ const HeroSection = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
           >
             <h1 className="hero-title">
-              Empoweing Dreams through <span className="text-accent">code & innovation</span> 
+              Empoweing Dreams through <span className="text-accent">Code & Innovation</span> 
             </h1>
             <p className="hero-subtitle">
               We transform innovative ideas into powerful software solutions, 

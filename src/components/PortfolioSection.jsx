@@ -11,44 +11,44 @@ const PortfolioSection = () => {
   
   const projects = [
     {
-      image: "/placeholder-600x400.jpg",
-      title: "FinTech Dashboard",
-      category: "Web Application",
+      image: "src/assets/project1.png",
+      title: "One Click",
+      //category: "Web Application",
       description: "A comprehensive financial analytics dashboard with real-time data visualization.",
       link: "#"
     },
     {
       image: "/placeholder-600x400.jpg",
-      title: "Leo App",
-      category: "Mobile App",
+      title: "One Click",
+      //category: "Mobile App",
       description: "Healthcare tracking application with patient monitoring and analytics features.",
       link: "#"
     },
     {
       image: "src/assets/project3.jpg",
       title: "TeaTune AI",
-      category: "AI Solution",
+      //category: "AI Solution",
       description: "AI-powered inventory management and customer behavior analysis system.",
       link: "#"
     },
     {
       image: "/placeholder-600x400.jpg",
       title: "CloudSecure",
-      category: "Cybersecurity",
+      //category: "Cybersecurity",
       description: "Advanced security platform for protecting cloud-based applications and data.",
       link: "#"
     },
     {
       image: "/placeholder-600x400.jpg",
       title: "EcoTrack",
-      category: "IoT Solution",
+      //category: "IoT Solution",
       description: "Environmental monitoring system with IoT sensors and real-time reporting.",
       link: "#"
     },
     {
       image: "/placeholder-600x400.jpg",
       title: "EduLearn",
-      category: "E-Learning Platform",
+      //category: "E-Learning Platform",
       description: "Comprehensive online learning platform with interactive courses and progress tracking.",
       link: "#"
     }

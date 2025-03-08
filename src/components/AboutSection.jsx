@@ -89,7 +89,7 @@ const AboutSection = () => {
             </p>
             <div className="about-stats">
               <div className="stat-item">
-                <span className="stat-number">5+</span>
+                <span className="stat-number">2+</span>
                 <span className="stat-label">Years Experience</span>
               </div>
               <div className="stat-item">
