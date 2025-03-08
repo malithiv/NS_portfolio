@@ -1,0 +1,155 @@
+/* Import Variables */
+@import './variables.css';
+
+/* Font Imports (Add appropriate fonts as needed) */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+/* Reset & Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-black);
+  color: var(--color-white);
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+button, input, textarea {
+  font-family: inherit;
+}
+
+/* Container */
+.container {
+  width: 100%;
+  max-width: var(--container-max-width);
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+/* Section Styles */
+section {
+  padding: 5rem 0;
+  position: relative;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.section-divider {
+  height: 0.25rem;
+  width: 5rem;
+  background-image: var(--gradient-primary);
+  margin: 0 auto 1.5rem;
+  border-radius: var(--border-radius-sm);
+}
+
+.section-description {
+  max-width: 40rem;
+  margin: 0 auto;
+  color: var(--color-lighter-gray);
+  font-size: 1.125rem;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 0.75rem 2rem;
+  border-radius: var(--border-radius-md);
+  font-weight: 600;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  text-align: center;
+}
+
+.btn-primary {
+  background-image: var(--gradient-primary);
+  color: var(--color-black);
+  box-shadow: var(--shadow-accent);
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px -5px rgba(245, 125, 32, 0.6);
+}
+
+.btn-outline {
+  border: 2px solid var(--color-orange);
+  color: var(--color-white);
+}
+
+.btn-outline:hover {
+  background-color: var(--color-orange);
+  color: var(--color-black);
+}
+
+.btn-sm {
+  padding: 0.5rem 1.5rem;
+  font-size: 0.875rem;
+}
+
+.btn-full {
+  width: 100%;
+}
+
+/* Text Utilities */
+.text-accent {
+  color: var(--color-orange);
+}
+
+/* Grid */
+.grid {
+  display: grid;
+  gap: 2rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 2rem;
+  }
+  
+  .btn {
+    padding: 0.75rem 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .section-title {
+    font-size: 1.75rem;
+  }
+  
+  section {
+    padding: 4rem 0;
+  }
+}
